@@ -19,3 +19,18 @@
 + 파이썬의 대체 비동기 처리:asyncio
 
 <br>
+
+## :bulb: Django
+<br>
+
+
+## :bulb: Web
+<br>
+
+
+## :bulb: REST API
+<br>
+
+
+## :bulb: Code review and testing
+<br>
