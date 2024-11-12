@@ -8,7 +8,7 @@
 
 
 
-## :bulb: Python  https://github.com/dlwnsgur9242/Python_Backend_Interview/blob/main/%EC%9E%90%EA%B2%A9%EC%9A%94%EA%B1%B4/Python%EA%B0%9C%EB%85%90.txt
+## :bulb: Python  [Link📄](https://github.com/dlwnsgur9242/Python_Backend_Interview/blob/main/%EC%9E%90%EA%B2%A9%EC%9A%94%EA%B1%B4/Python%EA%B0%9C%EB%85%90.txt)
 + Python 장단점
 + OOP(객체 지향 프로그래밍) 특징
 + 모듈과 패키지
