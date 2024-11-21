@@ -27,10 +27,10 @@
 <br>
 
 
-## :bulb: 웹 기술 [Link📄(https://github.com/dlwnsgur9242/Python_Backend_Interview/blob/main/%EC%9E%90%EA%B2%A9%EC%9A%94%EA%B1%B4/%EC%9B%B9%20%EA%B8%B0%EC%88%A0.md)
+## :bulb: 웹 기술 [Link📄](https://github.com/dlwnsgur9242/Python_Backend_Interview/blob/main/%EC%9E%90%EA%B2%A9%EC%9A%94%EA%B1%B4/%EC%9B%B9%20%EA%B8%B0%EC%88%A0.md)
 + RESTful API
 + 시스템 아키텍처
-+ 
+
 <br>
 
 
