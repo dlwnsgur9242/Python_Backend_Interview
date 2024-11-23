@@ -17,6 +17,12 @@
 + 파이썬의 코드 성능 향상 기법
 + 멀티스레드 프로그래밍
 + 파이썬의 대체 비동기 처리:asyncio
+<br>
+
+## :bulb: Java
++ 생성자(Constructor)
++ 정적 팩토리 메서드(Static Factory Method) 장단점
++ Builder 패턴
 
 <br>
 
@@ -36,3 +42,5 @@
 
 ## :bulb: Code review and testing
 <br>
+
+
