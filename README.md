@@ -19,16 +19,17 @@
 + 파이썬의 대체 비동기 처리:asyncio
 <br>
 
+## :bulb: Django [Link📄](https://github.com/dlwnsgur9242/Python_Backend_Interview/blob/main/%EC%9E%90%EA%B2%A9%EC%9A%94%EA%B1%B4/Django.md)
++ Django ORM
++ Django
+<br>
+
 ## :bulb: Java [Link📄](https://github.com/dlwnsgur9242/Python_Backend_Interview/blob/main/%EC%9E%90%EA%B2%A9%EC%9A%94%EA%B1%B4/Java.md)
 + 생성자(Constructor)
 + 정적 팩토리 메서드(Static Factory Method) 장단점
 + Builder 패턴
 <br>
 
-## :bulb: Django [Link📄](https://github.com/dlwnsgur9242/Python_Backend_Interview/blob/main/%EC%9E%90%EA%B2%A9%EC%9A%94%EA%B1%B4/Django.md)
-+ Django ORM
-+ Django
-<br>
 
 
 ## :bulb: 웹 기술 [Link📄](https://github.com/dlwnsgur9242/Python_Backend_Interview/blob/main/%EC%9E%90%EA%B2%A9%EC%9A%94%EA%B1%B4/%EC%9B%B9%20%EA%B8%B0%EC%88%A0.md)
