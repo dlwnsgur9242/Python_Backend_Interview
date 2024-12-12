@@ -22,7 +22,7 @@
 
 ## JVM 내 Heap 영역
   - 객체를 저장하는 가상 메모리 공간으로 new 연산자로 생성되는 객체를 저장
-  ![JVM 내 Heap 영역](..\img_java\image.png)
+  - ![JVM 내 Heap 영역](img_java\JVM내Heap영역.png)
 
 ## 의미있는 코드 Style
 
