@@ -1,12 +1,12 @@
 ## java
-+ 1.1.자파 파일과 컴파일러 동작
-    1. 소스 코드 작성 Hellow.java 
-    2. 컴파일러가 Hellow.java를 Hellow.class로 변환
-        - JVM이 인식할 수 있는 Binary file
-    3. JVM으로 프로그램 실행
++ 자파 파일과 컴파일러 동작
+  1. 소스 코드 작성 Hellow.java 
+  2. 컴파일러가 Hellow.java를 Hellow.class로 변환
+      - JVM이 인식할 수 있는 Binary file
+  3. JVM으로 프로그램 실행
 
 ## JVM
-+ 1.1.JVM = Java Virtual Machine = 자바를 실행하기 위한 가상 머신
++ JVM = Java Virtual Machine = 자바를 실행하기 위한 가상 머신
   - JAva 어플리케이션은 JVM 위에서 동작하기 때문에 OS에 종속적이지 않음.
   - 스택 기반의 가상 머신으로 클래스 로더, 실행 엔진, Runtime Data Area로 구성되어 있음
 
@@ -20,6 +20,9 @@
 + Runtime Date Area
   - 프로그램 수행을 위해 os 에서 할당받은 메모리 공간 (Thread, Heap,...)
 
+## JVM 내 Heap 영역
+  - 객체를 저장하는 가상 메모리 공간으로 new 연산자로 생성되는 객체를 저장
+  C:\Users\JUNHYUK\Desktop\시작\oreumi\Python_Backend_Interview\정리\img_java\image.png
 
 ## 의미있는 코드 Style
 
