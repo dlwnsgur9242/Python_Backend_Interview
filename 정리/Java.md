@@ -1,4 +1,27 @@
-## 1.의미있는 코드 Style
+## java
++ 1.1.자파 파일과 컴파일러 동작
+    1. 소스 코드 작성 Hellow.java 
+    2. 컴파일러가 Hellow.java를 Hellow.class로 변환
+        - JVM이 인식할 수 있는 Binary file
+    3. JVM으로 프로그램 실행
+
+## JVM
++ 1.1.JVM = Java Virtual Machine = 자바를 실행하기 위한 가상 머신
+  - JAva 어플리케이션은 JVM 위에서 동작하기 때문에 OS에 종속적이지 않음.
+  - 스택 기반의 가상 머신으로 클래스 로더, 실행 엔진, Runtime Data Area로 구성되어 있음
+
++ 클래스 로더
+  - .class 파일을 로드하고, jar 파일 내 저장된 클래스를 JVM 위에 탑재하는 역할
+  
++ 실행 엔진
+  - 인터프리터와 JIT(Just in time)으로 클래스를 실행
+  - 가비지 컬렉터로 사용하지 않는 메모리를 찾아 삭제
+
++ Runtime Date Area
+  - 프로그램 수행을 위해 os 에서 할당받은 메모리 공간 (Thread, Heap,...)
+
+
+## 의미있는 코드 Style
 
 + 1.1.Constructor vs Static Factory Method
 
@@ -35,9 +58,9 @@
         valueOf; Boolean isTrue = Boolean.valueOf("true");<br>
 
 
-## 2.Builder 패턴
+## Builder 패턴
 
-+ 2.1.생성자와 정적 팩토리의 한계
++ 1.1.생성자와 정적 팩토리의 한계
     선택적 매개변수가 많을 때 정적 팩토리와 생성자는 적절히 대응하기 어렵다.<br>
 
     ### Why?
@@ -45,7 +68,7 @@
 
     두 번째는, 가독성이 매우 현저하게 떨어진다.<br>
 
-+ 2.2.Builder 패턴으로 문제해결
++ 1.2.Builder 패턴으로 문제해결
 	Builder 패턴을 이용하면 이러한 문제를 해결할 수 있으며 방법은 크게 2가지로 나뉜다.<br>
 
     ### How? 
@@ -55,4 +78,3 @@
 
 
     (추가) 공부할 때 시스템의 흐름과 원리를 이해하고 선언할 수 있어야 한다.<br>
-

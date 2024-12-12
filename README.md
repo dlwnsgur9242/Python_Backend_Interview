@@ -25,6 +25,8 @@
 <br>
 
 ## :bulb: Java [Link📄](https://github.com/dlwnsgur9242/Python_Backend_Interview/blob/main/%EC%A0%95%EB%A6%AC/Java.md)
++ Java
++ JVM
 + 생성자(Constructor)
 + 정적 팩토리 메서드(Static Factory Method) 장단점
 + Builder 패턴
