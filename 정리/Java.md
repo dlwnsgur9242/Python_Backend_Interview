@@ -22,7 +22,7 @@
 
 ## JVM 내 Heap 영역
   - 객체를 저장하는 가상 메모리 공간으로 new 연산자로 생성되는 객체를 저장
-  C:\Users\JUNHYUK\Desktop\시작\oreumi\Python_Backend_Interview\정리\img_java\image.png
+  ![JVM 내 Heap 영역](C:\Users\JUNHYUK\Desktop\시작\oreumi\Python_Backend_Interview\정리\img_java\image.png)
 
 ## 의미있는 코드 Style
 
