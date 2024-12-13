@@ -44,7 +44,18 @@
   
 + 래퍼 클래스 (Wrapper Class)
   - 기본 자료형을 클래스로 감싸는 것으로 객체로 다루기 위한 클래스
+
+## 참조 자료형(Reference Data Type)
+  - String: 문자열
+  - ArrayList: 동적 배열
+  - HashMap: 키-값을 쌍으로 저장
+  - HashSet: 중복 없는 값을 저장하기 위해 사용
+  - LinkedList: 연결 리스트
+  - Queue: 큐
+  - Stack: 스택
   
+## 변수에 값 대입
+  - 대입 연산자(assignment operator) "=" 를 활용하여 변수에 값을 대입
   
 ## JVM
 + JVM = Java Virtual Machine = 자바를 실행하기 위한 가상 머신
