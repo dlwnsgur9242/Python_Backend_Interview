@@ -1,10 +1,51 @@
 ## java
++ 자바의 특징
+    +   객체 지향적인 언어
+        - object 클래스에서 모든 클래스가 파생
+    +   플랫폼 독립적
+        - JVM 위에서 동작하기 때문에 OS 에 종속적이지 않음
+    +   메모리 관리
+        -   Garbage collector 가 존재하기 때문에 개발자가 직접 메모리 할당/해제를 해주지 않아도 됨
+  
 + 자파 파일과 컴파일러 동작
   1. 소스 코드 작성 Hellow.java 
   2. 컴파일러가 Hellow.java를 Hellow.class로 변환
       - JVM이 인식할 수 있는 Binary file
   3. JVM으로 프로그램 실행
 
+
+## 자바 코드 구조
++  클래스 블록, 메소드 블록, 명령문으로 구성됨
+     - ![자바코드구조](../정리/img_java/자바코드구조.png)
+  
++ 클래스 블록
+  - 자바 코드의 가장 바깥쪽 영역을 의미
+  - 클래스명은  자유롭게 정할 수 있음
+  - 클래스명은 소스 파일의 이름과 동일해야 함
+  - 하나의 클래스 블록은 여러 메소드 블록을 포함할 수 있음
+  - 클래스 블록은 중괄호 { }로 감싸져야 함
+  
++ 메소드 블록
+  - public, private, protected 는 메소드의 접근 제어자
+  - static 은 static 메소드를 만들기 위해 활용
+  - void 는 해당 메소드 블록이 수행된 후 반환되는 데이터 구조를 의미
+  - 반환되는 데이터 구조는 메소드 당 하나
+  - 메소드 명 역시 자유롭게 정할 수 있음
+
+## 자료형
++ 기본 자료형(primitive Type)
+  - 데이터를 저장하기 위해 사용하는 자료형
+  - 변수에 "실제 값"을 가짐
+  - 예: int, double
+  
++ 참조 자료형(Reference Type)
+  - 데이터가 저장된 메모리의 주소값을 가지는 자료형
+  - 예: String, ArrayList
+  
++ 래퍼 클래스 (Wrapper Class)
+  - 기본 자료형을 클래스로 감싸는 것으로 객체로 다루기 위한 클래스
+  
+  
 ## JVM
 + JVM = Java Virtual Machine = 자바를 실행하기 위한 가상 머신
   - JAva 어플리케이션은 JVM 위에서 동작하기 때문에 OS에 종속적이지 않음.
@@ -23,6 +64,24 @@
 ## JVM 내 Heap 영역
   - 객체를 저장하는 가상 메모리 공간으로 new 연산자로 생성되는 객체를 저장
   - ![JVM 내 Heap 영역](../정리/img_java/JVM내Heap영역.png)
+  
+  + New/Young Generation
+    - 가비지 컬렉터에 의해 사라질 수 있음 (Minor GC)
+  
+  + Eden
+    - 객체가 최초로 생성되는 공간
+    - 해당 영역이 가득차면 가비지 컬렉터가 동작 (Survivor 1 영역으로 복사 후 객체 삭제)
+  
+  + Survivor 0, 1
+    - Eden에서 참조되는 객체가 저장되는 공간   
+
+  + Old Generation
+    - 가비지 컬렉터에 의해 사라질 수 있음 (Major GC, Minor GC 에 비해 속도가 느림)
+    - New/Young Generation 에서 살아남은 객체가 저장되는 공간
+
+  + Permanent Generation
+    - 생성된 객체의 주소 값, meta 정보가 저장되는 공간  
+
 
 ## 의미있는 코드 Style
 
